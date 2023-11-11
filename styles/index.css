@@ -1,0 +1,511 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #191C1F;
+    height: 80px;
+    width: 1920px;
+    padding-top: 10px;
+}
+
+.yellow-btn{
+  background-color: #F3DE6D;
+  width: 74px;
+  height: 40px;
+  margin-left: 299px;
+  top: 21.96;
+  padding: 6px, 10px, 6px,10px;
+  gap: 10px;
+  transform: rotateZ(3deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 10px;
+  font-size: larger;
+
+}
+.text1{
+    color: #191C1F;
+  
+}
+.friday{
+    height: 32px;
+    font-size: 24px;
+    font-weight: 600;
+    position: absolute;
+    color: white;
+    width: 72px;
+    height: 32px;
+    top: 20px;
+    left: 387px
+}
+
+.discount{
+    width: 180px;
+    height: 48px;
+    top: 16px;
+    left: 870px;
+    gap: 8px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.dis-child{
+    color: white;
+    font-weight: 500;
+    width: 35px;
+    height: 20px;
+    font-size: 14px;
+    height: 20px;
+    line-height: 18px;
+}
+.dis-child-2{
+color: #EBC80C;
+width: 89px;
+height: 48px;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+}
+
+.dis-child-3{
+    width: 40px;
+    height: 28px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
+
+.shop-now{
+    position: absolute;
+    left: 1464.5px;
+    top: 16px;
+    border-radius: 2px;
+    gap: 8px;
+   
+}
+
+.close-btn{
+position: absolute;
+width: 32px;
+height: 32px;
+top: 24px;
+left: 920px;
+top: 13px;
+}
+
+.top-nav{
+   background-color: #1B6392;
+   width: 1920px;
+   height: 52px;
+   display: flex;
+   justify-content: space-between;
+   padding: 12px, 300px, 12px, 300px;
+}
+
+.top-nav-text-1{
+    color: #FFFFFF;
+    width: 285px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 15.5px;
+    line-height: 20px;
+    display: flex;
+    padding-top: 15px;
+    margin-left: 299px;
+}
+
+.follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    color: #FFFFFF;
+}
+
+.line{
+    width: 1px;
+    height: 28px;
+    opacity: 0.16;
+    background-color: #fff;
+}
+
+.line-2{
+    height: 1px;
+    opacity: 0.16;
+    background-color: #fff;
+
+}
+
+
+.mid-navi{
+    display: flex;
+width: 1920px;
+height: 88px;
+padding: 20px 300px;
+justify-content: space-between;
+align-items: center;
+background-color: #1B6392;
+
+}
+
+.search{
+    width: 646px;
+    height: 48px;
+    background-color: #FFFFFF;
+    padding-top: 14px;
+    padding-left: 20px;
+    display: flex;
+padding: 14px 20px;
+align-items: flex-start;
+justify-content: space-between;
+gap: 8px;
+}
+
+.search-text{
+    font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; 
+color: #77878F;
+
+}
+
+.btm-navi{
+    display: flex;
+width: 1920px;
+padding: 16px 300px;
+justify-content: space-between;
+align-items: center;
+
+}
+.nav-left-side{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 24px;
+}
+.nav-left-side{
+    display: flex;
+    height: 48px;
+    width: 747px;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    
+}
+
+
+.category{
+    display: flex;
+padding: 14px 24px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+    background-color: var(--gray-50, #F2F4F5);;
+}
+.track{ display: flex;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+}
+.compare{
+    display: flex;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.customer{
+    display: flex;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.help{
+    display: flex;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.number{
+    display: flex;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.line-3{
+    height: 1px;
+    opacity: 0.16;
+    width: 1920px;;
+    background-color: black;
+}
+
+.grid-container{
+    max-width: 1320px;
+    height: 520px;
+    margin-left: 299px;
+    margin-top: 24px;
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.rounded-border{
+border-radius: 6px;
+}
+
+
+.grid-banner{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-color: #F2F4F5;
+    height: 520px;
+
+}
+
+.content{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+}
+
+
+.place{
+    width: 246px;
+    height: 20px;
+    margin-top: 140px;
+    margin-left: 88px;
+    color: var(--secondary-600, #2484C2);
+font-family: Public Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+}
+
+.console{
+    color: #191C1F;
+    font-family: Public Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+margin-left: 56px;
+}
+
+.save-up{
+    margin-left: 56px;
+    width: 356px;
+    color: #475156;
+    font-family: Public Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+}
+.shop-now-5{
+    width: 156px;
+    height: 48px;
+    margin-left: 56px;
+    background-color: #FA8232;
+    color: #FFFFFF;
+    font-size: 14px;
+    display: flex;
+    padding: 0px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 6px;
+
+}
+
+.x-360{
+    width: 368px;
+height: 408px;
+flex-shrink: 0;
+    position:absolute;
+    top: 418px;
+    margin-left: 400px;
+}
+.blue-ball{
+    position: absolute;
+    top: 408px;
+    margin-left: 630px;
+}
+
+.dots{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 56px;
+}
+
+
+.grid-product-1{
+    background-color: #191C1F;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+    height: 248px;
+    position: relative;
+    overflow: hidden;
+        
+}
+
+.new-google{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+}
+
+.sum-sales{
+    margin-top: 46px;
+    margin-left: 40px;
+    width: 160px;
+    height: 20px;
+    font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+text-transform: uppercase;
+color: #EBC80C;
+border-radius: 6px;
+}
+
+.pixel-text{
+    margin-left: 40px;
+    color: white;
+    width: 160px;
+    height: 64px;
+    font-family: Public Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+border-radius: 6px;
+}
+
+.shop-now-1{
+    width: 156px;
+    height: 48px;
+    margin-left: 40px;
+    background-color: #FA8232;
+    color: #FFFFFF;
+    font-size: 14px;
+    display: flex;
+    padding: 0px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 6px;
+
+}
+.p-off{
+    width: 102px;
+    height: 40px;
+    background-color: #EFD33D;
+    color: #141414;
+    font-size: 16px;
+    font-style: normal;
+    display: flex;
+width: 102px;
+height: 40px;
+padding: 8px 16px;
+align-items: flex-start;
+gap: 10px;
+flex-shrink: 0;
+position: absolute;
+top: 32px;
+right: 40px;
+border-radius: 6px;
+
+}
+
+.phone-pic{
+    height: 312px;
+    width: 312px;
+    position: absolute;
+    top: 47px;
+    right: -100px;
+}
+
+.grid-product-2{
+    width: 424px;
+    height: 248px;
+    background-color: #F2F4F5;
+   
+}
+
+.xiaomi{
+    right: 40px;
+    margin-top: 40px;
+    position: absolute;
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+}
+
+
+
+.xiaomi-text{
+    font-family: Public Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+color: #191C1F;
+width: 172px;
+height: 64px;
+}
+
+.xiaomi-price{
+    color: var(--secondary-500, #2DA5F3);
+    
+    font-family: Public Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+}
+
+.shop-now-2{
+    width: 156px;
+    height: 48px;
+    
+    background-color: #FA8232;
+    color: #FFFFFF;
+    font-size: 14px;
+    display: flex;
+    padding: 0px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 6px;
+}
+
+.xiaomi-image{
+    width: 160px;
+    height: 160px;
+    margin-left: 32px;
+    margin-top: 40px;
+}
